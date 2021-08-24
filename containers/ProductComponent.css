@@ -1,0 +1,32 @@
+.ui.menu>.container, .ui.menu>.grid {
+    width:90%;
+}
+.ui.grid>.column:not(.row), .ui.grid>.row>.column{
+    width: auto;
+    margin-top: 2rem;
+}
+.ui.grid.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1200px){
+.ui.grid.container {
+    width: 100%!important;
+    padding: 1rem 5rem;
+}
+}
+
+.ui.cards{
+    margin: 0;
+    width: 20rem;
+}
+
+.ui.cards>.card{
+    width: 100%;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img{
+    height: 30rem;
+}
